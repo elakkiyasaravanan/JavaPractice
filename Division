@@ -1,0 +1,18 @@
+package mycodes;
+import java.util.Scanner;
+public class division {
+
+	public static void main(String[] args) {
+		
+		    Scanner input= new Scanner(System.in);
+		    System.out.println("Enter first Number: ");
+		    int a=input.nextInt();
+		    
+		    System.out.println("Enter Second Number: ");
+		    int b=input.nextInt();
+		    
+		    int div = a/b;
+		    System.out.println("The division is: " + div);
+		    input.close();
+			}
+}
