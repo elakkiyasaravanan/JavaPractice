@@ -1,0 +1,19 @@
+package mycodes;
+import java.util.Scanner;
+public class multiplication {
+
+	public static void main(String[] args) {
+		
+    Scanner input= new Scanner(System.in);
+    System.out.println("Enter first Number: ");
+    int a=input.nextInt();
+    
+    System.out.println("Enter Second Number: ");
+    int b=input.nextInt();
+    
+    int mul = a*b;
+    System.out.println("The Multiplication is: " + mul);
+    input.close();
+	}
+
+}
