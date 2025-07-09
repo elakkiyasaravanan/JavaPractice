@@ -1,0 +1,43 @@
+package mycodes;
+import java.util.Scanner;
+public class StringOperation {
+
+	public static void main(String[] args) {
+		   Scanner scanner = new Scanner(System.in);
+
+	        // Input a string
+	        System.out.print("Enter a string: ");
+	        String input = scanner.nextLine();
+
+	        // Length of the string
+	        System.out.println("Length: " + input.length());
+
+	        // First character
+	        System.out.println("First character: " + input.charAt(0));
+
+	        // Substring
+	        System.out.println("Substring (1-4): " + input.substring(1, 4));
+
+	        // Concatenation
+	        String newString = input + " - Learning Java Strings";
+	        System.out.println("Concatenated String: " + newString);
+
+	        // String comparison
+	        System.out.println("Is input equal to 'Hello'? " + input.equals("Hello"));
+
+	        // Convert to uppercase
+	        System.out.println("Uppercase: " + input.toUpperCase());
+
+	        // Convert to lowercase
+	        System.out.println("Lowercase: " + input.toLowerCase());
+
+	        // Check if it contains a substring
+	        System.out.println("Does it contain 'learn'? " + input.toLowerCase().contains("learn"));
+
+	        // Replace characters
+	        System.out.println("Replace 'a' with '*': " + input.replace('a', '*'));
+
+	        scanner.close();
+	}
+
+}
