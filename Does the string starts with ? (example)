@@ -1,0 +1,18 @@
+package mycodes;
+import java.util.Scanner;
+public class StartsWithExample {
+
+	public static void main(String[] args) {
+		 Scanner scanner = new Scanner(System.in);
+
+	        System.out.print("Enter a string: ");
+	        String input = scanner.nextLine();
+
+	        boolean startsWithJava = input.startsWith("Java");
+	        System.out.println("Does the string start with 'Java'? " + startsWithJava);
+
+	        scanner.close();
+
+	}
+
+}
