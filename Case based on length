@@ -1,0 +1,21 @@
+package mycodes;
+import java.util.Scanner;
+public class CaseBasedOnLength {
+
+	public static void main(String[] args) {
+		 Scanner scanner = new Scanner(System.in);
+
+	        System.out.print("Enter a string: ");
+	        String input = scanner.nextLine();
+
+	        if (input.length() > 5) {
+	            System.out.println("Uppercase: " + input.toUpperCase());
+	        } else {
+	            System.out.println("Lowercase: " + input.toLowerCase());
+	        }
+
+	        scanner.close();
+
+	}
+
+}
